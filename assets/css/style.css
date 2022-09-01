@@ -17,7 +17,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -27,3 +27,13 @@ img{
 
 
 /* #endregion utilities */ 
+
+header>div{
+    text-align: center;
+}
+
+h1{
+    color: var(--title);
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+}
