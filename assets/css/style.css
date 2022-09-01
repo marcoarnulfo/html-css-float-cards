@@ -32,6 +32,11 @@ h1{
     color: var(--title);
     padding-top: 2.5rem;
     padding-bottom: 3.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+    font-family: 'Akshar', sans-serif;
 }
 
 /* #endregion header */
@@ -45,17 +50,35 @@ img{
 }
 
 .col_3{
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px var(--sfondo_card);
     float: left;
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 10px) ;
     margin-top: 60px;
-    background-color: black;
+    background-color: var(--sfondo_card);
     color: white;
-    margin-left: 30px;
+}
+
+.center{
+    margin-left: 15px ;
+    margin-right: 15px ;
 }
 
 .card{
     float: left;
+}
+
+.name{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.job{
+    font-family: 'Akshar', sans-serif;
+}
+
+.mail{
+    font-family: 'Akshar', sans-serif;
+    color: #2CACDE ;
+    text-decoration: none;
 }
 
 .name, .job, .mail{
@@ -63,5 +86,12 @@ img{
     margin-left: 15px;
 }
 
+.mail{
+    display: inline-block;
+}
+
+.mail:hover{
+    color: var(--title);
+}
 
 /* end main */
